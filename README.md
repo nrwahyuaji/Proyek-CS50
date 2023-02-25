@@ -6,5 +6,5 @@ Created by:
 - Nur Rahmat Wahyuaji
 
 ---
-- Build with [pythonanywhere](https://www.pythonanywhere.com/)
-- Test: http://ajik769.pythonanywhere.com/
+- Publish with [pythonanywhere](https://www.pythonanywhere.com/)
+- Alpha Test: http://ajik769.pythonanywhere.com/
