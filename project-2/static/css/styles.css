@@ -92,10 +92,22 @@ h2 {
     line-height: 50px;
 }
 
-.namawebsite{
-    font-size: 20px;
+#namawebsite{
+    font-size: 25px;
     font-weight: bold;
+    font-family: Roboto Condensed;
+    color: #f1faee;
+    line-height: 40px;
 }
+
+#menuwebsite{
+    line-height: 40px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark{
+    line-height: 40px;
+}
+
 /* Size for brand */
 nav .navbar-brand
 {
@@ -128,11 +140,14 @@ nav .navbar-brand .green
     line-height: 40px;
     float: right;
 }
-.menu-bawah a{
+li a#menu-bawah {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: Roboto Condensed;
+    color: #fbfbfb;
+    font-weight: normal;
 }
-.menu-bawah a:hover{
-    color:#ce7005;
+li:hover a#menu-bawah{
+    text-decoration: none;
+    color: #fb8500;
 }
