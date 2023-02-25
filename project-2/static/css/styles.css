@@ -106,6 +106,8 @@ h2 {
 
 nav.navbar.navbar-expand-lg.navbar-dark.bg-dark{
     line-height: 40px;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+    border-bottom: 4px solid #FFC007;
 }
 
 /* Size for brand */
@@ -143,11 +145,42 @@ nav .navbar-brand .green
 li a#menu-bawah {
     text-decoration: none;
     font-size: 18px;
-    font-family: Roboto Condensed;
+    font-family: Maven Pro;
     color: #fbfbfb;
     font-weight: normal;
 }
 li:hover a#menu-bawah{
     text-decoration: none;
     color: #fb8500;
+    font-weight: bold;
+}
+li a#menu-bawah2 {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Maven Pro;
+    color: #fbfbfb;
+    font-weight: normal;
+}
+a#menu-bawah2.nav-link.menu-masuk{
+    background-color: #ffa500;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin: 8px 5px;
+}
+li:hover a#menu-bawah2{
+    background-color: #ffa500;
+    color: black;
+    font-weight: bold;
+}
+
+.form-LR{
+    border-radius: 20px;
+    line-height: 2;
+    padding: 10px 20px;
+}
+
+button#button-login{
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px 20px;
 }

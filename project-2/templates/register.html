@@ -1,26 +1,62 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="/static/css/styles.css" rel="stylesheet">
+<title>Page Title</title>
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
-{% block title %}
-    Register |
-{% endblock %}
+.full-height {
+  height: 100%;
+  background: #fff;
+}
+</style>
 
-{% block main %}
-    <br>
-    <!-- kode form register -->
-    <form action="/register" method="post">
-        <div class="mb-3">
-            <!-- form input untuk username -->
-            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="Username" type="text">
+</head>
+<body>
+<div class="container-fluid full-height">
+    <div class="row" style="height: 100%;">
+        <div class="col-lg-6" style="padding-top: 5%;">
+            <div style="padding: 0px 20%;">
+                <h3 style="font-weight: bold;">Selamat datang kembali!</h3>
+                <span>Yuk, lanjutkan belajarmu!</span>
+            </div>
+            <br>
+            <form action="/register" method="post" style="padding: 0px 20%;">
+                <div class="mb-3">
+                    <!-- form input untuk username -->
+                    <input autocomplete="off" autofocus class="form-control mx-auto form-LR" id="username" name="username" placeholder="Username" type="text">
+                </div>
+                <div class="mb-3">
+                    <!-- form input untuk password -->
+                    <input class="form-control mx-auto form-LR" id="password" name="password" placeholder="Password" type="password">
+                </div>
+                <div class="mb-3">
+                    <!-- form input untuk konfirmasi password (skenario: password dan konfirmasi password harus sama)-->
+                    <input class="form-control mx-auto form-LR" id="password" name="confirmation" placeholder="Confirm Password" type="password">
+                </div>
+                <!-- tombol untuk register -->
+                <button id="button-login" class="btn btn-primary button-LR" type="submit">Register</button>
+            </form>
+            <br>
+            <hr style="margin: 0px 20%;">
+            <p style="margin: 10px 20%;">Sudah punya akun? <a href="/login" style="font-weight: bold; text-decoration: none;">Masuk</a>.</p>
+            <a href="/" style="font-weight: bold; text-decoration: none; margin: 10px 20%;"><i class="fa-solid fa-circle-chevron-left"></i> kembali ke Beranda</a>
         </div>
-        <div class="mb-3">
-            <!-- form input untuk password -->
-            <input class="form-control mx-auto w-auto" id="password" name="password" placeholder="Password" type="password">
+        <div class="col-lg-6" style="background-color: transparent;">
+            <img style="top:5%; left: 10%; width: 80%; padding-bottom: 20px; position: relative;" src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?w=740&t=st=1675201936~exp=1675202536~hmac=9f3a489e7d9257703cd235d6dea7b205718d13d2ccda181500337e42702acd84"/>
         </div>
-        <div class="mb-3">
-            <!-- form input untuk konfirmasi password (skenario: password dan konfirmasi password harus sama)-->
-            <input class="form-control mx-auto w-auto" id="password" name="confirmation" placeholder="Confirm Password" type="password">
-        </div>
-        <!-- tombol untuk register -->
-        <button class="btn btn-primary" type="submit">Register</button>
-    </form>
-{% endblock %}
+    </div>
+</div>
+
+</body>
+</html>

@@ -7,6 +7,7 @@
         <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
         <link href="/static/css/styles.css" rel="stylesheet">
         <title>{% block title %}{% endblock %}Final Project CS50 Indonesia</title>
     </head>
@@ -27,7 +28,7 @@
                     {% if session["user_id"] %}
                     <ul class="navbar-nav ms-auto flex-nowrap">
                         <li class="nav-item">
-                            <a href="{{ url_for('home') }}" id="menu-bawah" class="nav-link"><i class="fa-solid fa-house"></i> </a>
+                            <a href="{{ url_for('home') }}" id="menu-bawah" class="nav-link"><i class="fa-solid fa-house" style="font-size: 15px;"></i> </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ url_for('dashboard') }}" id="menu-bawah" class="nav-link">Dashboard</a>
@@ -51,20 +52,20 @@
                     {% else %}
                     <ul class="navbar-nav ms-auto flex-nowrap">
                         <li class="nav-item">
-                            <a href="{{ url_for('home') }}" id="menu-bawah" class="nav-link"><i class="fa-solid fa-house"></i> </a>
+                            <a href="{{ url_for('home') }}" id="menu-bawah" class="nav-link"><i class="fa-solid fa-house" style="font-size: 15px;"></i> </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url_for('register') }}" id="menu-bawah" class="nav-link">Register</a>
+                            <a href="{{ url_for('teachers') }}" id="menu-bawah" class="nav-link">Teachers</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url_for('login') }}" id="menu-bawah" class="nav-link">Login</a>
+                            <a href="{{ url_for('login') }}" id="menu-bawah2" class="nav-link menu-masuk"><i class="fa-solid fa-circle-user" style="font-size: 15px;"></i> Masuk</a>
                         </li>
                     </ul>
                     {% endif %}
                 </div>
             </div>
         </nav>
-        <div class="wrapper">
+        <div class="container-fluid" style="padding: 0px;">
             {% block main %}{% endblock %}
         </div>
        </body>
