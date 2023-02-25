@@ -28,6 +28,10 @@ body {
     float: right;
 }
 
+#navbar-wrap-all{
+    z-index: 999;
+}
+
 nav {
     width: 100%;
     margin: auto;
