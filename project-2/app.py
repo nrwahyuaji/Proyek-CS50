@@ -17,7 +17,8 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 # Configure CS50 Library to use SQLite database
-db = SQL("sqlite:///database.db")
+# Publish hapus "home/ajik769/Proyek-CS50/project-2/"
+db = SQL("sqlite:////home/ajik769/Proyek-CS50/project-2/database.db")
 
 @app.route("/")
 def home():
