@@ -5,5 +5,6 @@ Created by:
 - Gesha Rahmalia
 - Nur Rahmat Wahyuaji
 
-Build with pythonanywhere
-Test: http://ajik769.pythonanywhere.com/
+---
+- Build with pythonanywhere
+- Test: http://ajik769.pythonanywhere.com/
