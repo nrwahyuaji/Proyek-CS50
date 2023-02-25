@@ -18,10 +18,10 @@ Session(app)
 
 # Configure CS50 Library to use SQLite database
 # Source db di Phytonanywhere sementara diganti ke "sqlite:////home/ajik769/Proyek-CS50/project-2/database.db"
-# db = SQL("sqlite:////home/ajik769/Proyek-CS50/project-2/database.db")
+db = SQL("sqlite:////home/ajik769/Proyek-CS50/project-2/database.db")
 # Untuk publish besuk tinggal hapus "home/ajik769/Proyek-CS50/project-2/" dan disesuaikan dengan direktori baru
 # Implementasi DB 
-db = SQL("sqlite:///database.db")
+# db = SQL("sqlite:///database.db")
 
 @app.route("/")
 def home():
