@@ -5,5 +5,22 @@
 {% endblock %}
 
 {% block main %}
-    <span>Register</span>
+    <br>
+    <!-- kode form register -->
+    <form action="/register" method="post">
+        <div class="mb-3">
+            <!-- form input untuk username -->
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="mb-3">
+            <!-- form input untuk password -->
+            <input class="form-control mx-auto w-auto" id="password" name="password" placeholder="Password" type="password">
+        </div>
+        <div class="mb-3">
+            <!-- form input untuk konfirmasi password (skenario: password dan konfirmasi password harus sama)-->
+            <input class="form-control mx-auto w-auto" id="password" name="confirmation" placeholder="Confirm Password" type="password">
+        </div>
+        <!-- tombol untuk register -->
+        <button class="btn btn-primary" type="submit">Register</button>
+    </form>
 {% endblock %}

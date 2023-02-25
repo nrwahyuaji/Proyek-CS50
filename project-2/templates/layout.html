@@ -13,6 +13,7 @@
                 <a class="navbar-brand navbar-baru-left" href="#"><span class="namawebsite">Project CS50 Indonesia</h4></span>
                 {% if session["user_id"] %}
                 <div class="d-flex flex-row-reverse navbar-baru-right">
+                  <div class="p-2 menu-bawah"><a href="{{ url_for('logout') }}">Logout</a></div>
                   <div class="p-2 menu-bawah"><a href="{{ url_for('submit') }}">Submit</a></div>
                   <div class="p-2 menu-bawah"><a href="{{ url_for('teachers') }}">Teachers</a></div>
                   <div class="p-2 menu-bawah"><a href="{{ url_for('ict') }}">ICT</a></div>
