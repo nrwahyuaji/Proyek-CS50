@@ -76,12 +76,10 @@ section {
 .kolom .deskripsi {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
     color: #00337C;
 }
 
 h2 {
-    font-family: 'comic sans ms';
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
@@ -90,6 +88,10 @@ h2 {
     line-height: 50px;
 }
 
+.namawebsite{
+    font-size: 20px;
+    font-weight: bold;
+}
 /* Size for brand */
 nav .navbar-brand
 {
@@ -114,4 +116,19 @@ nav .navbar-brand .green
     color: #2e944b;
 }
 
-
+.navbar-baru-left{
+    line-height: 40px;
+    float: left;
+}
+.navbar-baru-right{
+    line-height: 40px;
+    float: right;
+}
+.menu-bawah a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu-bawah a:hover{
+    color:#ce7005;
+}
