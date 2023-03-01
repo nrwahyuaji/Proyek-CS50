@@ -33,15 +33,15 @@ def dashboard():
     return render_template("dashboard.html")
 
 @app.route("/math")
-def math():
+def math 10():
     return render_template("math.html")
 
 @app.route("/ict")
-def ict():
+def math 11():
     return render_template("ict.html")
 
 @app.route("/teachers")
-def teachers():
+def bk():
     return render_template("teachers.html")
 
 @app.route("/login", methods=["GET", "POST"])
