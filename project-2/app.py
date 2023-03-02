@@ -32,24 +32,21 @@ def home():
 def dashboard():
     return render_template("dashboard.html")
 
-@app.route("/math")
+@app.route("/math10")
 def math10():
     return render_template("math.html")
 
-@app.route("/ict")
+@app.route("/math11")
 def math11():
     return render_template("ict.html")
 
-@app.route("/teachers")
+@app.route("/bk")
 def bk():
     return render_template("teachers.html")
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
     """Log user in"""
-
-    # Forget any user_id
-    session.clear()
 
     # User reached route via POST (as by submitting a form via POST)
     if request.method == "POST":
