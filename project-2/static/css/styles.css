@@ -215,4 +215,6 @@ div .body-wrapper{
 }
 a.footermenu{
     text-decoration: none;
+    color: darkorange;
+    font-weight: bold;
 }
