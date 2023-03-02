@@ -33,11 +33,11 @@ def dashboard():
     return render_template("dashboard.html")
 
 @app.route("/math")
-def math-10():
+def math10():
     return render_template("math.html")
 
 @app.route("/ict")
-def math-11():
+def math11():
     return render_template("ict.html")
 
 @app.route("/teachers")
