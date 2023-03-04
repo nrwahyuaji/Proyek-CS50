@@ -39,18 +39,19 @@ To run this program, you can use VSCode for testing or try it directly on your s
 4. Clik Terminal > New Terminal
 ![enter image description here](https://github.com/nrwahyuaji/Proyek-CS50/raw/master/project-2/static/img/new-terminal.png)
 5. Make sure the active terminal location is on
-    %YOURFOLDERLOCATION%\Proyek CS50\project-2
 
+    %YOURFOLDERLOCATION%\Proyek CS50\project-2
+or as in the image below.
+![enter image description here](https://github.com/nrwahyuaji/Proyek-CS50/raw/master/project-2/static/img/terminal-location.png)
 6. Then run the command below
+
     flask run
 
 7. If the program runs smoothly without errors, it will appear like this.
+
     Running on http://127.0.0.1:5000
     INFO: Press CTRL+C to quit
+
 9. Done!
 
 ##### Deploy to Server
-
-
-
-
