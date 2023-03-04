@@ -55,7 +55,8 @@ or as in the image below.
 
     Running on http://127.0.0.1:5000
     INFO: Press CTRL+C to quit
-
+You can access your application by visiting http://127.0.0.1:5000 with your browser.
+<br>
 8.Done!
 <br>
 ##### Deploy to Server
