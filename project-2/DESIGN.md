@@ -8,7 +8,23 @@
 
 ## Installation Instruction
 ### Setup
-
+#### 1. Clonning Repo
     git clone https://github.com/nrwahyuaji/Proyek-CS50.git
     cd Proyek-CS50
     cd project-2
+#### 2. Prerequisites
+Make sure to run this program, your computer or server must have Python installed.
+After that, make sure that you have installed Flask. If you don't have it installed, you can install it using the example below.
+
+    pip install flask
+or if you are using pip3 you can execute this
+
+    pip3 install flask
+The next step is to install the package from cs50 (because we are still using the package from cs50, check `App.py`)
+To install packages from cs50, please do this.
+
+    pip install cs50
+   or
+   
+
+    pip3 install cs50
