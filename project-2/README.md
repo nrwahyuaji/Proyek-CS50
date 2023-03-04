@@ -13,9 +13,10 @@
  <p><strong><h2>How the webpage works?</p></strong></h2>
     
  <p>Our idea is simple. When the students are given our website then login first or to our visitor we provide username and password for demo. They will click enter or     sign in. After that they fill in:
-  <ol type='a'>
-      <li>username</li>
-      <li>password</li>
-      then log in. we provide the demo username and password. 
+  <ul>
+    <li>username</li>
+    <li>password</li>
+   </ul>
+   then log in. we provide the demo username and password. 
     
     
