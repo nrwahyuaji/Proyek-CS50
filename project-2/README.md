@@ -10,10 +10,10 @@
     <li>Jinja</li>
     <li>and other small things</li>
     
-    <p><strong><h2>How the webpage works?</p></strong></h2>
+ <p><strong><h2>How the webpage works?</p></strong></h2>
     
-    <p>Our idea is simple. When the students are given our website then login first or to our visitor we provide username and password for demo. They will click enter or      sign in. After that they fill in:
-    <ol>
+ <p>Our idea is simple. When the students are given our website then login first or to our visitor we provide username and password for demo. They will click enter or     sign in. After that they fill in:
+  <ol>
       <li>username</li>
       <li>password</li>
       then log in. we provide the demo username and password. 
