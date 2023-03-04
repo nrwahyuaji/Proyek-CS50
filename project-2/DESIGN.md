@@ -28,3 +28,16 @@ To install packages from cs50, please do this.
    
 
     pip3 install cs50
+
+#### 3. Run Flask
+To run this program, you can use VSCode for testing or try it directly on your server.
+##### Virtual Studio Code
+1. Open VSCode
+2. Click File > Open Folder
+3. Navigate to Folder Project-CS50/project-2
+VSCode will look like this
+![enter image description here](https://github.com/nrwahyuaji/Proyek-CS50/raw/master/project-2/static/img/project-2-folder.png)
+
+
+##### Deploy to Server
+
