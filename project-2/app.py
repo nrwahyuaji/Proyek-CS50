@@ -16,11 +16,12 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-# Configure CS50 Library to use SQLite database
-# Source db di Phytonanywhere sementara diganti ke "sqlite:////home/ajik769/Proyek-CS50/project-2/database.db"
+# Configure CS50 Library to use SQLite database (Pilih Salah Satu)
+# Aktifkan database di bawah ini untuk deploy di PythonAnywhere "sqlite:////home/ajik769/Proyek-CS50/project-2/database.db"
 db = SQL("sqlite:////home/ajik769/Proyek-CS50/project-2/database.db")
+
+# Aktifkan database di bawah ini untuk testing lokal lewat Visual Studio Code atau yang lain
 # Untuk publish besuk tinggal hapus "home/ajik769/Proyek-CS50/project-2/" dan disesuaikan dengan direktori baru
-# Implementasi DB 
 # db = SQL("sqlite:///database.db")
 
 @app.route("/")
