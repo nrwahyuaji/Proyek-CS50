@@ -36,14 +36,17 @@ To run this program, you can use VSCode for testing or try it directly on your s
 2.Click File > Open Folder <br>
 3.Navigate to Folder Project-CS50/project-2 <br>
 ![enter image description here](https://github.com/nrwahyuaji/Proyek-CS50/raw/master/project-2/static/img/project-2-folder.png)
+<br>
 4.Clik Terminal > New Terminal
 ![enter image description here](https://github.com/nrwahyuaji/Proyek-CS50/raw/master/project-2/static/img/new-terminal.png)
+<br>
 5.Make sure the active terminal location is on
 
     %YOURFOLDERLOCATION%\Proyek CS50\project-2
  
 or as in the image below.
 ![enter image description here](https://github.com/nrwahyuaji/Proyek-CS50/raw/master/project-2/static/img/terminal-location.png)
+<br>
 6.Then run the command below
 
     flask run
@@ -54,7 +57,6 @@ or as in the image below.
     INFO: Press CTRL+C to quit
 
 8.Done!
-
+<br>
 ##### Deploy to Server
-
-
+You can use your own server by installing Python and Flask first. You can also use free service providers such as [PythonAnywhere](https://www.pythonanywhere.com/).
