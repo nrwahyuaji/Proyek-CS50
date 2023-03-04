@@ -32,9 +32,9 @@ To install packages from cs50, please do this.
 #### 3. Run Flask
 To run this program, you can use VSCode for testing or try it directly on your server.
 ##### Virtual Studio Code
-1.Open VSCode
-2.Click File > Open Folder
-3.Navigate to Folder Project-CS50/project-2
+1.Open VSCode <br>
+2.Click File > Open Folder <br>
+3.Navigate to Folder Project-CS50/project-2 <br>
 ![enter image description here](https://github.com/nrwahyuaji/Proyek-CS50/raw/master/project-2/static/img/project-2-folder.png)
 4.Clik Terminal > New Terminal
 ![enter image description here](https://github.com/nrwahyuaji/Proyek-CS50/raw/master/project-2/static/img/new-terminal.png)
@@ -56,4 +56,5 @@ or as in the image below.
 8.Done!
 
 ##### Deploy to Server
+
 
