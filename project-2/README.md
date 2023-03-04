@@ -29,4 +29,4 @@
   <li>then students are able to find the material then do their assignments: <a href="https://ajik769.pythonanywhere.com/dashboard">Material</a>
  
 <p><strong><h2>Demonstration on our youtube</p></strong></h2>
-<p>The following is our final project presentation outlining. <a href="#">Our Final Project Presentation</a>
+<p>The following is our final project presentation outlining. <a href="https://youtu.be/7QKwZVqUqo8">Our Final Project Presentation</a>
